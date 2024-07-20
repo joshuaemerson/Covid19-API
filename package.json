@@ -1,0 +1,35 @@
+{
+  "name": "covid-api",
+  "version": "1.0.0",
+  "description": "assignment-2-29-affansidd-joshuaemerson created by GitHub Classroom",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha ./tests/* --exit",
+    "test-coverage": "nyc --reporter=text mocha ./tests/* --exit",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/affansidd/assignment-2-29-affansidd-joshuaemerson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/affansidd/assignment-2-29-affansidd-joshuaemerson/issues"
+  },
+  "homepage": "https://github.com/affansidd/assignment-2-29-affansidd-joshuaemerson#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "express": "^4.17.3",
+    "fast-csv": "^4.3.6",
+    "fs": "^0.0.1-security",
+    "mongodb": "^4.4.1",
+    "multer": "^1.4.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "nyc": "^15.1.0",
+    "supertest": "^6.2.2"
+  }
+}
