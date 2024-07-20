@@ -1,4 +1,4 @@
-# Covid-19 API
+# Covid-19 API (2022)
 This repository is for a COVID-19 API built using Express.js and MongoDB. The API contains functionality for uploading COVID data based on both the timeseries and daily-reports formats that are linked below. In addition to the uploading functionality, the API also provides functionality for retrieving COVID data from the MongoDB instance. The full specification of the API can be viewed here.
 
 # Project URL
